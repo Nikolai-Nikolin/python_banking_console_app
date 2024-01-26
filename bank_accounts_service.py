@@ -227,9 +227,10 @@ def delete_account(bank_user_id):
                                    'SET is_deleted = True '
                                    'WHERE account_number = %s ', (del_account,))
                     progress_bar()  # функция полоски загрузки
-                    print(f'----------------------------------',
+                    print(f'{Fore.LIGHTYELLOW_EX}----------------------------------',
                           f'Ваш счет №{del_account} закрыт',
                           f'----------------------------------', sep='\n')
+                    print(Style.RESET_ALL)
                 elif account[2] >= 0:
                     print(f'{Fore.LIGHTRED_EX}--------------------------------',
                           f'На счете есть деньги! Для закрытия счета его баланс должен быть равен 0.',
