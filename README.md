@@ -32,7 +32,7 @@
 ### <span style='color: orange;'>Как запустить приложение?<span/>
 
 - С помощью файла [main_banking.py](main_banking.py) *(должна быть установлена любая IDE)*
-- С помощью файла [main_banking.exe] (main_banking.exe)
+- С помощью файла [main_banking.exe](main_banking.exe)
 
 > Далее вы можете посмотреть скриншоты работающего приложения
 
